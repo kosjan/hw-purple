@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>Регистрация</h1>
+        <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
+        <h3>Моя компания:</h3>
+        <form action="#" method="get">
+            <div class="fio">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Имя" required>
+                </div>
+                <div>
+                    <label for="surname"></label>
+                    <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                </div>
+            </div>
+
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="accept">
+                <button type="submit">Зарегистрироваться</button>
+                <img src="./images/arrow.svg" alt="topic pic">
+            </div>
+            <!-- <button type="submit">Зарегистрироваться</button> -->
+            <div class="agreement">
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

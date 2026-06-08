@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+nav {
+    margin: 0 55% 0 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+header h1 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+header a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.formSearch {
+    background-color: rgba(31, 41, 55, 0.6);
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    padding: 3%;
+}
+
+::placeholder {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.imageFront {
+    text-align: center;
+}
+
+.imageComp {
+    text-align: center;
+}
+
+main h2 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 30%;
+    margin: 2% auto;
+}
+
+main p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 40%;
+    margin: 2% auto;
+}
+
+footer p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
