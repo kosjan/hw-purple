@@ -1,3 +1,4 @@
+/* HW 1
 let posLatitude = 4;
 let posLongitude = 5;
 let desLatitude = 9;
@@ -8,4 +9,5 @@ let secondQuat = (desLongitude - posLongitude) ** 2;
 
 let d = Math.sqrt(firstQuat + secondQuat);
 
-console.log(d)
+console.log(d)*/
+
