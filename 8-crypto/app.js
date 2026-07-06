@@ -23,7 +23,7 @@ function crypto(password) {
 
 
 function check(encrypted, password) {
-    return crypto(encrypted) === password;
+    return encrypted === crypto(password);
 }
 
 console.log(crypto('password'));
